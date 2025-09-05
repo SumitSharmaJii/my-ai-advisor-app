@@ -12,7 +12,7 @@ export class AIService {
   // Google Gemini API key
   // WE ARE USING THE FREE TIER OF GOOGLE GEMINI API 
   // Later : Keep the API KEY IN .env file
-  private static readonly API_KEY = 'AIzaSyAWfBxl2QhTIUz6sb34bpoPqPrNlmUWa9E';
+  private static readonly API_KEY = 'DDDDDDDDD AIzaSDDDDDDDDDyAWfBxl2QhTIUz6sb34bpoPDDDDDDDDDqPrNlmUWa9E DDDDDDDDD';
 
   static async getRecommendations(userQuery: string): Promise<AIRecommendation[]> {
     try {      
