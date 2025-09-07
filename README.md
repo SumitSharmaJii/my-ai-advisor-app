@@ -1,7 +1,6 @@
 # AI Product Recommender - React Native Application
 
-A sophisticated React Native application that leverages Google's Gemini AI to provide intelligent product recommendations based on natural language queries. Users can describe their needs in plain English, and the app will analyze their request against a comprehensive product catalog to deliver personalized recommendations with detailed explanations. 
-Test : https://snack.expo.dev/@sumitsharmajii/my-ai-advisor-app?platform=web
+A sophisticated React Native application that leverages Google's Gemini AI to provide intelligent product recommendations based on natural language queries. Users can describe their needs in plain English, and the app will analyze their request against a comprehensive product catalog to deliver personalized recommendations with detailed explanations.
 
 ##  Project Overview
 
@@ -19,7 +18,7 @@ This application demonstrates advanced React Native development practices, AI in
 ### High-Level Component Structure
 
 ```
-TestPrep/
+my-ai-advisor-app/
 ├── src/
 │   ├── components/           # Reusable UI components
 │   │   ├── Header.tsx       # App header component
@@ -137,14 +136,6 @@ To use the real Google Gemini API (instead of the mock implementation):
 2. Create a new API key
 3. Open `src/services/aiService.ts`
 4. Replace `YOUR_GEMINI_API_KEY_HERE` with your actual API key
-5. Uncomment the real API call in the `getRecommendations` method
-
-```typescript
-// In aiService.ts, change this:
-return await this.getMockRecommendations(userQuery);
-
-// To this:
-return await this.getGeminiRecommendations(userQuery);
 ```
 
 ### 3. Run the Application
