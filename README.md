@@ -1,6 +1,7 @@
 # AI Product Recommender - React Native Application
 
 A sophisticated React Native application that leverages Google's Gemini AI to provide intelligent product recommendations based on natural language queries. Users can describe their needs in plain English, and the app will analyze their request against a comprehensive product catalog to deliver personalized recommendations with detailed explanations.
+Test : https://snack.expo.dev/@sumitsharmajii/my-ai-advisor-app?platform=web
 
 ##  Project Overview
 
